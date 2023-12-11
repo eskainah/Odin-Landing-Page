@@ -94,7 +94,7 @@
     padding: 20px 20px;
 }
 .content{
-    height: auto;
+    height: autopx;
     width: 100%;
     background-color: #ffffffec;
     display: flex;
@@ -126,7 +126,7 @@
 .quote{
     height: 300px;
     width: 100%;
-    background-color: #E5E7EB;
+    background-color: #E5E7EB; 
     display: flex;
     justify-content: center;
     font-family:Impact, 'Times New Roman', Times, serif;
