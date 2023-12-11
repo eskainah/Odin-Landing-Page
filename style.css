@@ -7,6 +7,7 @@
     height: auto;
     width: 100%;
     display: flex;
+    flex-direction: column;
 }
 /*Header section starts here*/
 .header{
@@ -14,31 +15,31 @@
     display: flex;
     width: 100%;
     height: 500px;
-    position: absolute;
+    
 }
 .nav{
     width: 80%;
+    height: 80;
     position: absolute;
     display: flex;
     justify-content: space-between;
     padding: 10px 0px;
     margin: 0 10% 0 10%;
 }
-.logo{
+.nav h2{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 24px;
     color: #f9faf8;
     padding: 0px;
 }
-
-.menu li{
+.nav li{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 500px;
     font-size: 18px;
     color: #E5E7EB;
     list-style: none;
     display: inline-block;
-    padding: 0px 20px;
+    padding: 5px 20px;
 }
 
 .intro{
@@ -48,6 +49,7 @@
     margin: 10% 10%;
 
 }
+
 .intro div{
     width: 60%;
     font-family: Arial, Helvetica, sans-serif;
@@ -66,16 +68,8 @@
 }
 
 .intro button{
-    background-color: rgb(61, 97, 163);
-    height: 40px;
-    width: 150px;
     margin-top: 10px;
-    border-radius: 5px;
     border-style: none;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 18px;
-    color: #E5E7EB;
-    font-weight: bold;
     cursor: pointer;
 }
 .header_img{
@@ -84,3 +78,93 @@
     padding-right: 2%;
 }
 /*header section ends here*/
+
+/*The main section starts here*/
+.main_body{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.content{
+    height: 450px;
+    width: 100%;
+    background-color: #ffffffec;
+}
+.quote{
+    height: 300px;
+    width: 100%;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    font-family:Impact, 'Times New Roman', Times, serif;
+    font-size: 36px;
+    font-weight: lighter;
+
+}
+.quote p{
+    margin-top: 70px;
+}
+.quote span{
+    font-size: 24px;
+    float: right;
+}
+.action{
+    height: 350px;
+    width: 100%;
+    background-color: #ffffffec;
+    display: flex;
+    justify-content: center;
+}
+.action_holder{
+    width: 80%;
+    height: 150px;
+    background-color: #3882f6;
+    margin-top: 100px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+.action_holder div{
+    width: 60%;
+    color: #f9faf8;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+}
+.action_holder div p{
+    font-size: 18px;
+}
+.action_holder div h3{
+    font-size: 24px;
+    font-weight: bolder;
+}
+.action_holder button{
+    margin-top: 50px;
+}
+.btn_signup{
+    width: 150px;
+    height: 40px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #f9faf8;
+    color: #f9faf8;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+/* The main section ends here*/
+
+/*Footer starts here*/
+.footer{
+    background-color:  #1f2937;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #f9faf8;
+}
+/*Footer starts here*/
